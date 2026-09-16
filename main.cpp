@@ -81,6 +81,8 @@ void mostrarTareas(const vector<Tarea>& tareas) {
         if (tareas[i].completada == true){
             cout << "[Completada] ";
         } else {
+            cout << "[Pendiente] ";
+        }
         
         cout << tareas[i].descripcion << endl;
     }
